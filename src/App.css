@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -13,15 +14,249 @@
   }
 }
 
+
+
 .App-header {
-  background-color: #282c34;
+  background-color: #808080;
+  font-size: calc(5px + 2vmin);
+  color: white;
   min-height: 100vh;
+}
+
+.App-arrow-left {
+  position: absolute;
+  top: 70px;
+  left: 190px;
+  font-size: 24px;
+  line-height: 1;
+  color: #333;
+  
+}
+
+.App-arrow-right {
+  position: absolute;
+  top: 77.5px;
+  right: 190px;
+  font-size: 24px;
+  line-height: 1;
+  color: #333;
+  
+}
+
+.App-settings-line-margins {
+  margin-bottom: 10px; /* Add some space between lines */
+}
+
+
+.App-title {
+
+  width: 390px;
+  height: 70px;
+  background-color: mediumspringgreen;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: calc(10px + 1.5vmin);
   display: flex;
-  flex-direction: column;
+  align-items: reverse;
+  justify-content: left;
+  color: black;
+  z-index: 2; /* Higher z-index */
+
+
+}
+
+.App-settings-top {
+  
+  color: black;
+  margin-left: 20px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+.App-settings-middle {
+  color: black;
+  margin-left: 20px;
+  position: absolute;
+  top: 20px;
+  left: 0x;
+}
+
+.App-settings-bottom {
+  color: black;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  margin-left: 20px;
+}
+
+.App-text-for-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #333;
+  font-size: 24px;
+  text-align: absolute;
+  margin-top: 0px; /* Adjust top margin */
+  margin-bottom: 50px; /* Adjust bottom margin */
+  margin-left: 50px; /* Adjust left margin */
+  margin-right: 50px; /* Adjust right margin */
+  z-index: 3;
+}
+
+.App-language-select-left {
+
+  width: 80px;
+  height: 25px;
+  background-color: grey;
+
+  position: absolute;
+  top: 100px;
+  left: 50px;
+
+  font-size: 8.5px;
+  font-weight: bold;
+  
+
+  display: flex;
+  align-items: reverse;
+  justify-content: center;
+  color: black;
+  z-index: 1; /* Higher z-index */
+
+}
+
+.App-language-select-right {
+
+  width: 80px;
+  height: 25px;
+  background-color: grey;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  font-size: 8.5px;
+  font-weight: bold;
+  display: flex;
+  align-items: reverse;
+  justify-content: center;
+  color: black;
+  z-index: 2; /* Higher z-index */
+
+}
+
+
+
+
+.Phone-screen {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 390px;
+  height: 844px;
+  background-color: #FFFFFF;
+  font-size: calc(5px + 2vmin);
+  display: flex;
+  align-items: reverse;
+  justify-content: left;
+  color: black;
+  z-index: 1;
+}
+
+.Transmission-box {
+  width: 290px;
+  height: 280px;
+  background-color: mediumspringgreen;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  font-size: calc(7px + 2vmin);
+  display: flex;
+  align-items: reverse;
+  justify-content: left;
+  color: black;
+  z-index: 2; /* Higher z-index */
+  
+
+
+}
+
+.Transcription-box {
+  width: 290px;
+  height: 280px;
+  background-color: beige;
+  position: absolute;
+  bottom: 110px;
+  left: 50px;
+  font-size: calc(7px + 2vmin);
+  display: flex;
+  align-items: reverse;
+  justify-content: left;
+  color: black;
+  z-index: 2; /* Higher z-index */
+  
+
+}
+
+.Playback-button-Translation {
+
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 50x; 
+  height: 50px;
+  
+  background-color: beige; 
+  border-radius: 50%;
+  z-index: 3;
+
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 15px
+
+}
+
+.Playback-button-Transcription {
+
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 50x; 
+  height: 50px;
+  
+  background-color: mediumspringgreen; 
+  border-radius: 50%;
+  z-index: 3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px
+
+}
+
+.Start-button {
+
+  position: absolute;
+  bottom: 25px;
+  left: 160px;
+  width: 75x; 
+  height: 50px;
+
+  display: inline-block; 
+  margin-right: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  
+  background-color: #D3BDB0; 
+  border-radius: 50%;
+  z-index: 2;
+
 }
 
 .App-link {
